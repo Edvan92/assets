@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+body{
+    background-image: url(360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg);
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.155);
+    position: relative;
+        top: 150px;
+        left: 510px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 25px rgba(44, 41, 41, 0.89);
+    backdrop-filter: blur(4.5px);
+    
+}
+
+form{
+    position: relative;
+    left: 140px;
+    text-align: center;
+    padding: 15px;
+    color:black;
+}
+
+.form input{
+    background: rgba(156, 154, 156, 0);
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(13, 255, 0);
+    box-shadow: 5px 8px 25px rgba(51, 255, 11, 0.666);
+    backdrop-filter: blur(5.5px);
+}
+
+button{
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 20px black;
+    width: 150px;
+    border: none;
+}
+button:hover{
+    border: none;
+    background-color:rgb(111, 255, 0);
+    box-shadow: 1px 5px 20px rgb(13, 255, 0);
+}
+
+ul li a{
+    
+    text-decoration: none;
+    color: rgb(243, 243, 246);
+}
+
+a:hover{
+    color: rgb(13, 255, 0);
+    text-shadow: 1px 5px 20px rgb(13, 255, 0);   
+}
